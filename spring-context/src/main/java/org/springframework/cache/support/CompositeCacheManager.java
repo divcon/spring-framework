@@ -67,6 +67,7 @@ public class CompositeCacheManager implements CacheManager, InitializingBean {
 
 	/**
 	 * Construct a CompositeCacheManager from the given delegate CacheManagers.
+	 *
 	 * @param cacheManagers the CacheManagers to delegate to
 	 */
 	public CompositeCacheManager(CacheManager... cacheManagers) {
